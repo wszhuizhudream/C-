@@ -281,23 +281,23 @@
 
 ////2.编写函数，不允许创建临时变量，求字符串的长度。
 ////不许创建临时变量就需要使用指针变量
-//#include<stdio.h>
-//#include<stdlib.h>
-//int strlen(const char* str)
-//{
-//	if (*str == '\0')
-//	return 0;
-//	else
-//		return 1 + strlen(str +1 );//str+1?
-//}
-//int main()
-//{
-//	char* p = "abcdef";
-//	int len = strlen(p);
-//	printf("%d\n", len);
-//	system("pause");
-//	return 0;
-//}
+#include<stdio.h>
+#include<stdlib.h>
+int strlen(const char* str)
+{
+	if (*str == '\0')
+	return 0;
+	else
+		return 1 + strlen(str +1 );//str+1?
+}
+int main()
+{
+	char* p = "abcdef";
+	int len = strlen(p);
+	printf("%d\n", len);
+	system("pause");
+	return 0;
+}
 
 ////3.求n的阶乘（不考虑溢出）
 //#define _CRT_SECURE_NO_WARNINGS
