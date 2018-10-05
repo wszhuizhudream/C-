@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jiegouti", "jiegouti\jiegouti.vcxproj", "{47AC9757-D1BF-4E00-BB58-40360BB36BD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47AC9757-D1BF-4E00-BB58-40360BB36BD0}.Debug|x64.ActiveCfg = Debug|x64
+		{47AC9757-D1BF-4E00-BB58-40360BB36BD0}.Debug|x64.Build.0 = Debug|x64
+		{47AC9757-D1BF-4E00-BB58-40360BB36BD0}.Debug|x86.ActiveCfg = Debug|Win32
+		{47AC9757-D1BF-4E00-BB58-40360BB36BD0}.Debug|x86.Build.0 = Debug|Win32
+		{47AC9757-D1BF-4E00-BB58-40360BB36BD0}.Release|x64.ActiveCfg = Release|x64
+		{47AC9757-D1BF-4E00-BB58-40360BB36BD0}.Release|x64.Build.0 = Release|x64
+		{47AC9757-D1BF-4E00-BB58-40360BB36BD0}.Release|x86.ActiveCfg = Release|Win32
+		{47AC9757-D1BF-4E00-BB58-40360BB36BD0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D87B3D03-A2D5-4006-9BE4-DDE7BC72CC26}
+	EndGlobalSection
+EndGlobal
